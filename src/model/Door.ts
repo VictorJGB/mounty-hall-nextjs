@@ -1,7 +1,7 @@
 export default class DoorClass {
   private number: number = 0;
   private hasGift: boolean = false;
-  private isSelected?: boolean = false;
+  private isSelected: boolean = false;
   private isOpen: boolean = false;
 
   constructor(
@@ -36,7 +36,7 @@ export default class DoorClass {
 
   // Seleciona porta
   changeSelection() {
-    const isSelected = !this.isSelected;
+    const isSelected = !this.IsSelected;
     return new DoorClass(this.number, this.hasGift, isSelected, this.isOpen);
   }
 
