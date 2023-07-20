@@ -28,6 +28,9 @@ export default class DoorClass {
   get IsOpen() {
     return this.isOpen;
   }
+  get IsClosed() {
+    return !this.isOpen;
+  }
 
   Deselect() {
     const selected = false;
