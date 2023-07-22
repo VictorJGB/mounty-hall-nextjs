@@ -1,4 +1,4 @@
-module.exports = {
+Rmodule.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
