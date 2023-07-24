@@ -6,7 +6,7 @@ export const createDoors = (
 ): DoorClass[] => {
   return Array.from({ length: quantity }, (_, i) => {
     const number = i + 1;
-    const hasGift = number === selected;
+    const hasGift = number == selected;
     return new DoorClass(number, hasGift);
   });
 };

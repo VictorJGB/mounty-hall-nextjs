@@ -1,8 +1,11 @@
 'use client';
 
-import DoorClass from '@/model/Door';
 import React from 'react';
-import Present from '../Present';
+
+import DoorClass from '@/model/Door';
+
+import Present from '../present';
+
 
 type Props = {
   value: DoorClass;
