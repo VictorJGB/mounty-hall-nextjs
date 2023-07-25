@@ -91,7 +91,11 @@ For more information about how this problem works visit <a href="https://en.wiki
 
 ## Usage
 
-techs version used in the project
+- esLint v8.44
+- nextjs v13.4.9
+- react v18.2.0
+- tailwindCSS v3.3.2
+- typescript v5.1.6
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
