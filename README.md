@@ -118,6 +118,8 @@ For more information about how this problem works visit <a href="https://en.wiki
 
 - [badges](https://github.com/Ileriayo/markdown-badges)
 
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Author
 
 <a href="https://www.linkedin.com/in/jerry-dev-084793203/">
