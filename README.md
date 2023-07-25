@@ -21,6 +21,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#fonts">Fonts</a></li>
+    <li><a href="#author">Author</a></li>
   </ol>
 </details>
 
@@ -116,3 +117,9 @@ For more information about how this problem works visit <a href="https://en.wiki
 ## Fonts
 
 - [badges](https://github.com/Ileriayo/markdown-badges)
+
+## Author
+
+<a href="https://www.linkedin.com/in/jerry-dev-084793203/">
+  <img width="150" height="150" src="https://user-images.githubusercontent.com/62398638/226929073-2c757280-6acf-4641-9fc1-bd7bb1f0485c.jpeg" />
+<a/>
