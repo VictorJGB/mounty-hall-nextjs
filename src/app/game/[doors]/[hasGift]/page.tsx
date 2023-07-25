@@ -22,25 +22,25 @@ const Game = ({ params }: { params: { doors: number; hasGift: number } }) => {
   }, [validDoors, validGiftDoor]);
 
   const renderDoors = () => {
-    return (
-      isValid &&
-      doors.map((door: DoorClass) => {
-        return (
-          <Door
-            key={door.Number}
-            value={door}
-            onChange={(newDoor) => setDoors(refreshDoors(doors, newDoor))}
-          />
-        );
-      })
-    );
+    return doors.map((door: DoorClass) => {
+      return (
+        <Door
+          key={door.Number}
+          value={door}
+          onChange={(newDoor) => setDoors(refreshDoors(doors, newDoor))}
+        />
+      );
+    });
   };
 
   return (
     <div className="flex flex-col w-full h-screen items-center justify-evenly bg-zinc-700 text-white">
-      <h1 className="text-4xl">Mounty Hall</h1>
       <div className="flex w-full flex-wrap items-center justify-evenly">
-        {renderDoors() ?? <p>Sem portas disponíveis!</p>}
+        {isValid ? (
+          renderDoors()
+        ) : (
+          <h1 className="text-3xl font-bold">Valores inválidos</h1>
+        )}
       </div>
       <div className="flex items-center justify-center">
         <Link href={'/'}>
