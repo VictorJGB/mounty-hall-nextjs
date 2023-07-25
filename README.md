@@ -7,8 +7,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#mounty-hall-problem">Mounty Hall Problem</a></li>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="#demo">Demo</a></li>
       </ul>
     </li>
     <li>
@@ -34,10 +34,12 @@ Project builded during the udemy nextjs course, implementing the mounty hall pro
 
 ### Mounty Hall Problem
 
-The Monty Hall problem is a brain teaser, in the form of a probability puzzle, loosely based on the American television game show Let's Make a Deal and named after its original host, Monty Hall. 
+The Monty Hall problem is a brain teaser, in the form of a probability puzzle, loosely based on the American television game show Let's Make a Deal and named after its original host, Monty Hall. </br>
 Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
 
 For more information about how this problem works visit <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem" target="_blank">Mounty Hall Problem</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -47,12 +49,6 @@ For more information about how this problem works visit <a href="https://en.wiki
 - ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Live -->
-
-## Demo
-
-demo url
 
 <!-- GETTING STARTED -->
 
@@ -69,11 +65,24 @@ demo url
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/VictorJGB/repo_name
+   git clone https://github.com/VictorJGB/mounty-hall-nextjs
    ```
 2. Install NPM packages
    ```sh
    npm install
+   ```
+3. Run the app and open on your localhost address (e.g ```localhost:3000```) </br>
+   npm
+   ```sh
+   npm run dev
+   ```
+   yarn
+   ```sh
+   yarn dev
+   ```
+   pnpm
+   ```sh
+   pnpm dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
